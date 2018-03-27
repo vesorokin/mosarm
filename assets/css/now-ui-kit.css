@@ -6277,7 +6277,7 @@ Created using IcoMoon - icomoon.io
 
 .index-page .page-header,
 .presentation-page .page-header {
-  height: 125vh; }
+  height: 100vh; }
   .index-page .page-header .container > .content-center,
   .presentation-page .page-header .container > .content-center {
     top: 37%; }
@@ -10331,3 +10331,7 @@ Created using IcoMoon - icomoon.io
     right: 14%; } }
 
 /*# sourceMappingURL=now-ui-kit.css.map */
+
+.features-2 {
+  padding: 220px 0;
+}
