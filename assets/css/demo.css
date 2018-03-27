@@ -217,16 +217,11 @@
   .presentation-page .card-component .front {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transform: rotateY(-35deg);
-    transform: rotateY(-35deg);
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #FFF;
     width: 100%;
     cursor: pointer;
-    -webkit-box-shadow: 10px 4px 14px rgba(0, 0, 0, 0.12);
-            box-shadow: 10px 4px 14px rgba(0, 0, 0, 0.12);
     border-radius: 10px;
     overflow: hidden; }
   .presentation-page h5.description {
@@ -402,8 +397,8 @@
     letter-spacing: -10px;
     text-align: center;
     background: #ffedea;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #FFFFFF), to(#c38775));
-    background: linear-gradient(to bottom, #FFFFFF 35%, #c38775 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #9c1919), to(#920000));
+    background: linear-gradient(to bottom, #9c1919 35%, #920000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   .presentation-page .rellax-text-container .pro,
@@ -427,13 +422,13 @@
 .index-page .page-header-city {
   background-size: cover;
   background-position: top;
-  top: 25.5%;
+  top: 10.5%;
   background-repeat: no-repeat; }
 
 .presentation-page .h3-description,
 .index-page .h3-description {
   z-index: 3;
-  top: 50%;
+  top: 20%;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -452,7 +447,7 @@
 .presentation-page .rellax-header-sky,
 .index-page .rellax-header-sky {
   z-index: 0;
-  height: 50%; }
+  height: 70%; }
 
 .presentation-page .rellax-header-buildings,
 .index-page .rellax-header-buildings {
