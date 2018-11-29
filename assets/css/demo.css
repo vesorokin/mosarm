@@ -326,7 +326,7 @@
     margin-top: 50px; }
     .presentation-page .section-pricing .our-clients img {
       width: 100%;
-      max-width: 120px;
+      max-width: 220px;
       margin: 0 30px;
       display: inline-block; }
   .presentation-page .section-sharing span {
@@ -459,7 +459,7 @@
 
 .presentation-page .page-header,
 .index-page .page-header {
-  background: #d0aea8; }
+   }
 
 .index-page .rellax-text-container {
   top: 22%; }
@@ -1134,10 +1134,10 @@
 
 .fullscreen-video-wrap{
   position:absolute;
-  top:0;
+  top:-10%;
   left:0;
   width:100%;
-  height:110vh;
+  height:120vh;
   overflow:hidden;
 }
 
